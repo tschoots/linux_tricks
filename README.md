@@ -3,6 +3,8 @@
 ### ubuntu terminal colors
 [explanation how to](https://askubuntu.com/questions/558280/changing-colour-of-text-and-background-of-terminal)</br>
 
+
+##### script to get the color numbers
 ```bash
 #!/bin/bash
 for((i=16; i<256; i++)); do
@@ -12,7 +14,7 @@ for((i=16; i<256; i++)); do
 done
 ```
 
-
+##### command line set term color
 ```bash
 echo -ne '\e]10;#123456\e\\'  # set default foreground to #123456
 echo -ne '\e]11;#abcdef\e\\'  # set default background to #abcdef
