@@ -21,5 +21,6 @@ echo -ne '\e]11;#abcdef\e\\'  # set default background to #abcdef
 ```
 
 </br>
-##### vi tricks
+##### vi tricksi</br>
+
 [vi split screen](http://www.microshell.com/programming/quick-tips/split-screen-in-vi/)
