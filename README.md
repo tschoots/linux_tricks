@@ -19,3 +19,7 @@ done
 echo -ne '\e]10;#123456\e\\'  # set default foreground to #123456
 echo -ne '\e]11;#abcdef\e\\'  # set default background to #abcdef
 ```
+
+</br>
+##### vi tricks
+[vi split screen](http://www.microshell.com/programming/quick-tips/split-screen-in-vi/)
