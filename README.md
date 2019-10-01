@@ -20,7 +20,11 @@ echo -ne '\e]10;#123456\e\\'  # set default foreground to #123456
 echo -ne '\e]11;#abcdef\e\\'  # set default background to #abcdef
 ```
 
-</br>
 ##### vi tricksi</br>
 
 [vi split screen](http://www.microshell.com/programming/quick-tips/split-screen-in-vi/)
+
+##### sudo apt-get update failing - “could not open” list file due to “permission denied”</br>
+```bash
+sudo rm /var/lib/apt/lists/partial/*
+```
