@@ -28,3 +28,18 @@ echo -ne '\e]11;#abcdef\e\\'  # set default background to #abcdef
 ```bash
 sudo rm /var/lib/apt/lists/partial/*
 ```
+
+### enable wake on lan
+* [explanation](http://ubuntuguide.net/remotely-turn-on-ubuntu-from-lan)
+
+##### target ubuntu machine
+* sample /etc/rc.local file:
+```bash
+#!/bin/bash
+ethtool -s enp0s25 wol g
+exit 0
+```
+* same /etc/init.d/halt file:
+```bash
+NETDOWN=no
+```
