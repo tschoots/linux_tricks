@@ -43,3 +43,13 @@ exit 0
 ```bash
 NETDOWN=no
 ```
+
+### remove docker images with none , or dangling
+ ```bash
+$ docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
+```
+### docker images sorted by size
+```bash
+$ docker images --format '{{.Size}}\t{{.Repository}}\t{{.Tag}}\t{{.ID}}' | sed 's/ //' | sort -h -r
+```
+
