@@ -53,3 +53,8 @@ $ docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
 $ docker images --format '{{.Size}}\t{{.Repository}}\t{{.Tag}}\t{{.ID}}' | sed 's/ //' | sort -h -r
 ```
 
+### some tricks for timestamp directory
+* make a timestamp dir
+```bash
+$ mkdir $(date '+%Y%m%d%H%M%S')
+```
