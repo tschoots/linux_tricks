@@ -58,3 +58,7 @@ $ docker images --format '{{.Size}}\t{{.Repository}}\t{{.Tag}}\t{{.ID}}' | sed '
 ```bash
 $ mkdir $(date '+%Y%m%d%H%M%S')
 ```
+
+
+### make bootable usb drive from iso ###
+* [blog how to make usb drive command line from iso, mac os](https://www.lewan.com/blog/2012/02/10/making-a-bootable-usb-stick-on-an-apple-mac-os-x-from-an-iso)
