@@ -63,3 +63,4 @@ $ mkdir $(date '+%Y%m%d%H%M%S')
 ### make bootable usb drive from iso ###
 * [blog how to make usb drive command line from iso, mac os](https://www.lewan.com/blog/2012/02/10/making-a-bootable-usb-stick-on-an-apple-mac-os-x-from-an-iso)
 * mac os , boot from usb , powerdown, power up and hold the "option alt" key
+* [steps to install ubuntu from usb , dual boot mac book](https://www.makeuseof.com/tag/install-linux-macbook-pro/)
